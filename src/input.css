@@ -191,35 +191,12 @@ body {
   border-radius: 50px 5px 50px 5px;
 }
 
-.cardPro:hover {
-  border: solid 2px #73be48;
+.cardPro:hover .radius-professional {
+  transition: all 0.5s;
+  border-radius: 5px 50px 5px 50px;
 }
 
-#service .owl-carousel .owl-item img {
-  width: 4rem;
-  height: 4rem;
-}
-
-#service .owl-dots {
-  position: absolute;
-  top: 0;
-  margin-top: 10px;
-  margin-left: -54%;
-  gap: 5px;
-}
-
-#service .owl-dots .owl-dot.active span {
-  width: 35px;
-  height: 5px;
-  background-color: #1cbbb4;
-}
-
-#service .owl-dots .owl-dot span {
-  width: 15px;
-  height: 5px;
-}
-
-#service .btnService {
+.cardPro:hover #service .btnService {
   border-color: #1cbbb4;
 }
 
@@ -244,4 +221,36 @@ body {
   z-index: -100;
   top: 0;
   border-radius: 10px;
+}
+
+#service .img-service {
+  animation: left_right 2s linear infinite;
+}
+
+.swiper-slide {
+  border-radius: 10px;
+}
+
+.swiper-slide-next {
+  background-color: white;
+  transition: all 1s;
+}
+
+.swiper-slide-next .card-footer {
+  opacity: 1;
+  visibility: visible;
+  transition: all 2s;
+  background-color: white;
+}
+
+.swiper-slide-active .card-footer {
+  transition: all 0s;
+}
+
+.swiper-slide-active:hover .card-footer {
+  transition: all 1s;
+}
+
+#default-styled-tab-content {
+  background-color: white !important;
 }

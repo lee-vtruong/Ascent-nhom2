@@ -31,10 +31,10 @@
       href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <!-- animate -->
+    <!-- swiper js -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
     <!-- owl-carousel -->
@@ -57,6 +57,12 @@
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
+    />
+
+    <!-- swiperjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
     <!-- index css -->
@@ -624,7 +630,7 @@
               </div>
             </div>
             <a
-              class="btnGetAQuote ml-2 mt-5 bg-bgOrange text-center flex justify-center items-center text-white py-4 px-10 rounded-lg btn after:bg-bgGreen"
+              class="btnGetAQuote ml-2 mt-5 hidden md:flex bg-bgOrange text-center justify-center items-center text-white py-4 px-10 rounded-lg btn after:bg-bgGreen"
               href="#"
               >Get a Quote
               <i class="fa-solid fa-arrow-right pl-2" aria-hidden="true"></i
@@ -919,7 +925,6 @@
         </div>
       </div>
     </section>
-
     <section class="lg:pt-15 pt-20 lg:pb-15 pb-10 relative" id="program">
       <div class="container m-auto">
         <div
@@ -932,11 +937,13 @@
           />
         </div>
         <div class="text-center flex flex-col items-center">
-          <p class="text-bgGreen font-bubblegum-sans text-[19px] wow fadeInUp">
+          <p
+            class="text-bgGreen font-bubblegum-sans text-[19px] wow animate__animated animate__fadeInUp"
+          >
             Educational Programs
           </p>
           <h2
-            class="font-bold lg:text-[32px] md:text-[28px] text-2xl lg:leading-[130%] md:leading-[120%] leading-[110%] lg:max-w-[630px] wow fadeInUp"
+            class="font-bold lg:text-[32px] md:text-[28px] text-2xl lg:leading-[130%] md:leading-[120%] leading-[110%] lg:max-w-[630px]"
             data-wow-delay=".3s"
           >
             Strong Foundation for Success For Nurturing Curiosityl
@@ -948,7 +955,7 @@
           >
             <!-- card start -->
             <div
-              class="relative rounded-[10px] bg-background border-2 border-[#F2F2F2] lg:p-10 p-4 transition-all duration-500 hover:shadow-3xl hover:border-transparent group/card wow fadeInUp"
+              class="relative rounded-[10px] bg-background border-2 border-[#F2F2F2] lg:p-10 p-4 transition-all duration-500 hover:shadow-3xl hover:border-transparent group/card wow animate__animated animate__fadeInUp"
               data-wow-delay=".3s"
             >
               <div
@@ -989,7 +996,7 @@
 
             <!-- card start -->
             <div
-              class="relative rounded-[10px] bg-background border-2 border-[#F2F2F2] lg:p-10 p-4 transition-all duration-500 hover:shadow-3xl hover:border-transparent group/card wow fadeInUp"
+              class="relative rounded-[10px] bg-background border-2 border-[#F2F2F2] lg:p-10 p-4 transition-all duration-500 hover:shadow-3xl hover:border-transparent group/card wow animate__animated animate__fadeInUp"
               data-wow-delay=".4s"
             >
               <div
@@ -1032,7 +1039,7 @@
 
             <!-- card start -->
             <div
-              class="relative rounded-[10px] bg-background border-2 border-[#F2F2F2] lg:p-10 p-4 transition-all duration-500 hover:shadow-3xl hover:border-transparent group/card wow fadeInUp"
+              class="relative rounded-[10px] bg-background border-2 border-[#F2F2F2] lg:p-10 p-4 transition-all duration-500 hover:shadow-3xl hover:border-transparent group/card wow animate__animated animate__fadeInUp"
               data-wow-delay=".5s"
             >
               <div
@@ -1073,7 +1080,7 @@
 
             <!-- card start -->
             <div
-              class="relative rounded-[10px] bg-background border-2 border-[#F2F2F2] lg:p-10 p-4 transition-all duration-500 hover:shadow-3xl hover:border-transparent group/card wow fadeInUp"
+              class="relative rounded-[10px] bg-background border-2 border-[#F2F2F2] lg:p-10 p-4 transition-all duration-500 hover:shadow-3xl hover:border-transparent group/card wow animate__animated animate__fadeInUp"
               data-wow-delay=".6s"
             >
               <div
@@ -1115,229 +1122,715 @@
         </div>
       </div>
     </section>
-
     <section class="lg:pt-15 lg:pb-15 pt-10 pb-10 portfolio" id="porfolio">
-      <div class="container m-auto">
+      <div class="max-w-[1280px] m-auto">
         <div class="text-center flex flex-col items-center">
           <p
-            class="text-secondary font-bubblegum-sans text-[19px] wow fadeInUp"
+            class="text-secondary font-bubblegum-sans text-[19px] wow animate__animated animate__fadeInUp"
           >
             Latest Portfolio
           </p>
           <h2
-            class="font-bold lg:text-[32px] md:text-[28px] text-2xl lg:leading-[130%] md:leading-[120%] leading-[110%] lg:max-w-[630px] wow fadeInUp"
+            class="font-bold lg:text-[32px] md:text-[28px] text-2xl lg:leading-[130%] md:leading-[120%] leading-[110%] lg:max-w-[630px] wow animate__animated animate__fadeInUp"
             data-wow-delay=".3s"
           >
             Exploring Minds Elementary School Education the only school
           </h2>
         </div>
         <div class="pt-10">
-          <ul
-            class="flex items-center justify-center flex-wrap md:gap-7.5 gap-5"
-          >
-            <li
-              class="portfolio-filter px-5 py-2.5 text-xl font-700 active border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-cream-foreground transition-all duration-500"
-              data-filter="all"
+          <!-- start flowbite -->
+
+          <div>
+            <ul
+              class="flex items-center justify-center flex-wrap md:gap-7.5 gap-5 h-[100px]"
+              id="default-styled-tab"
+              data-tabs-toggle="#default-styled-tab-content"
+              data-tabs-active-classes="text-white bg-orange-500 hover:text-white dark:text-purple-500 dark:hover:text-purple-500 border-white dark:border-purple-500"
+              data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300"
+              role="tablist"
             >
-              All
-            </li>
-            <li
-              class="portfolio-filter px-5 py-2.5 text-xl font-700 text-[#686868] border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-cream-foreground transition-all duration-500"
-              data-filter=".education"
-            >
-              Education
-            </li>
-            <li
-              class="portfolio-filter px-5 py-2.5 text-xl font-700 text-[#686868] border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-cream-foreground transition-all duration-500"
-              data-filter=".school"
-            >
-              School
-            </li>
-            <li
-              class="portfolio-filter px-5 py-2.5 text-xl font-700 text-[#686868] border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-cream-foreground transition-all duration-500"
-              data-filter=".learn"
-            >
-              Learn
-            </li>
-            <li
-              class="portfolio-filter px-5 py-2.5 text-xl font-700 text-[#686868] border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-cream-foreground transition-all duration-500"
-              data-filter=".child"
-            >
-              Child
-            </li>
-            <li
-              class="portfolio-filter px-5 py-2.5 text-xl font-700 text-[#686868] border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-cream-foreground transition-all duration-500"
-              data-filter=".coaching"
-            >
-              Coaching
-            </li>
-          </ul>
-          <div
-            class="mt-[64px] overflow-hidden relative wow fadeInUp"
-            data-wow-delay=".3s"
-          >
-            <div class="mixitup-container grid lg:gap-7.5 gap-4 grid-cols-12">
-              <!-- card start -->
-              <div
-                class="mix portfolio-item education coaching sm:col-start-1 md:col-end-5 sm:col-end-7 col-span-full sm:row-span-2 relative group/card"
+              <li
+                class="me-2 text-xl font-700 active border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-white transition-all duration-500"
+                role="presentation"
               >
-                <img
-                  src="./imgs/portfolio-1.png"
-                  alt="img"
-                  class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
-                />
-                <div
-                  class="absolute top-0 left-0 w-full h-full opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                <button
+                  class="inline-block p-4 rounded-t-lg"
+                  id="profile-styled-tab"
+                  data-tabs-target="#styled-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
                 >
-                  <h5 class="text-center">
-                    <a
-                      href=""
-                      class="text-cream-foreground text-2xl font-medium"
-                      >Exploring Minds Elementary Best School</a
-                    >
-                  </h5>
-                  <p class="text-cream-foreground">Dreamland Elementary</p>
-                  <a
-                    href=""
-                    class="bg-background w-11 h-11 rounded-full flex justify-center items-center cursor-pointer absolute bottom-5 left-1/2 -translate-x-1/2 overflow-hidden group"
+                  Education
+                </button>
+              </li>
+              <li
+                class="me-2 text-xl font-700 active border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-white transition-all duration-500"
+                role="presentation"
+              >
+                <button
+                  class="inline-block p-4 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                  id="dashboard-styled-tab"
+                  data-tabs-target="#styled-dashboard"
+                  type="button"
+                  role="tab"
+                  aria-controls="dashboard"
+                  aria-selected="false"
+                >
+                  School
+                </button>
+              </li>
+              <li
+                class="me-2 text-xl font-700 active border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-white transition-all duration-500"
+                role="presentation"
+              >
+                <button
+                  class="inline-block p-4 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                  id="settings-styled-tab"
+                  data-tabs-target="#styled-settings"
+                  type="button"
+                  role="tab"
+                  aria-controls="settings"
+                  aria-selected="false"
+                >
+                  Learn
+                </button>
+              </li>
+              <li
+                class="me-2 text-xl font-700 active border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-white transition-all duration-500"
+                role="presentation"
+              >
+                <button
+                  class="inline-block p-4 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                  id="settings-styled-tab"
+                  data-tabs-target="#styled-child"
+                  type="button"
+                  role="tab"
+                  aria-controls="settings"
+                  aria-selected="false"
+                >
+                  Child
+                </button>
+              </li>
+              <li
+                role="presentation"
+                class="me-2 text-xl font-700 active border border-[#F2F2F2] rounded-[10px] font-jost cursor-pointer hover:bg-primary hover:text-white transition-all duration-500"
+              >
+                <button
+                  class="inline-block p-4 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                  id="contacts-styled-tab"
+                  data-tabs-target="#styled-contacts"
+                  type="button"
+                  role="tab"
+                  aria-controls="contacts"
+                  aria-selected="false"
+                >
+                  Coaching
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div id="default-styled-tab-content">
+            <!-- 1 -->
+            <div
+              class="hidden p-4 rounded-lg bg-white dark:bg-gray-800"
+              id="styled-profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+            >
+              <div
+                class="mt-[64px] overflow-hidden relative wow animate__animated animate__fadeInUp"
+              >
+                <div
+                  class="mixitup-container grid lg:gap-7.5 gap-4 grid-cols-12 grid-rows-[277px]"
+                >
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item education coaching sm:col-start-1 md:col-end-5 sm:col-end-7 col-span-full sm:row-span-2 relative group/card"
                   >
-                    <i
-                      class="fa-solid fa-arrow-right text-destructive-foreground"
-                    ></i>
-                  </a>
+                    <img
+                      src="./imgs/portfolio-1.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 md:top-12 md:left-7 md:h-[calc(100%-80px)] md:w-[calc(100%-60px)] w-[80%] h-[70%] xl:top-10 xl:left-10 xl:w-[85%] xl:h-[80%] lg:h-[80%] m-auto opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 rounded-full flex justify-center items-center cursor-pointer absolute -bottom-5 left-[58%] md:left-[60%] xl:left-[55%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item school learn md:col-start-5 md:col-end-10 sm:col-start-7 sm:col-end-13 col-span-full relative group/card max-h-[453px]"
+                  >
+                    <img
+                      src="./imgs/portfolio-2.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-5 left-6 md:top-5 md:left-6 w-[calc(100%-60px)] h-[calc(100%-30px)] lg:h-[80%] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-3 lg:-bottom-5 rounded-full flex justify-center items-center cursor-pointer absolute left-[58%] md:left-[60%] lg:left-[56%] xl:left-[55%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item education child md:col-start-10 sm:col-start-7 sm:col-end-13 col-span-full relative group/card"
+                  >
+                    <img
+                      src="./imgs/portfolio-3.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 w-[80%] h-[70%] md:w-[calc(100%-60px)] md:h-[calc(100%-80px)] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a
+                          href=""
+                          class="text-white text-2xl md:text-[16px] lg:text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white md:text-sm text-center">
+                        Dreamland Elementary
+                      </p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 md:-bottom-7 xl:-bottom-6 rounded-full flex justify-center items-center cursor-pointer absolute left-[58%] md:left-[70%] lg:left-[60%] xl:left-[60%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item school coaching md:col-start-5 md:col-end-9 sm:col-start-1 sm:col-end-7 col-span-full relative group/card"
+                  >
+                    <img
+                      src="./imgs/portfolio-5.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 md:top-6 left-10 w-[80%] h-[70%] md:w-[calc(100%-60px)] md:h-[calc(100%-60px)] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a
+                          href=""
+                          class="text-white text-2xl md:text-[16px] xl:text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white md:text-sm xl:text-base">
+                        Dreamland Elementary
+                      </p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 md:-bottom-7 xl:-bottom-6 rounded-full flex justify-center items-center cursor-pointer absolute left-[58%] md:left-[60%] xl:left-[58%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item learn child md:col-start-9 sm:col-span-6 sm:col-end-13 col-span-full relative group/card"
+                  >
+                    <img
+                      src="./imgs/portfolio-6.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 w-[80%] h-[70%] md:w-[calc(100%-60px)] md:h-[calc(100%-60px)] lg:top-6 opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a
+                          href=""
+                          class="text-white text-2xl md:text-base xl:text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white md:text-sm xl:text-base">
+                        Dreamland Elementary
+                      </p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 rounded-full flex justify-center items-center cursor-pointer absolute left-[58%] md:left-[60%] xl:left-[58%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
                 </div>
               </div>
-              <!-- card end -->
-              <!-- card start -->
+            </div>
+            <!-- 2 -->
+            <div
+              class="hidden p-4 rounded-lg bg-white dark:bg-gray-800"
+              id="styled-dashboard"
+              role="tabpanel"
+              aria-labelledby="dashboard-tab"
+            >
               <div
-                class="mix portfolio-item school learn md:col-start-5 md:col-end-10 sm:col-start-7 sm:col-end-13 col-span-full relative group/card"
+                class="mt-[64px] overflow-hidden relative animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
               >
-                <img
-                  src="./imgs/portfolio-2.png"
-                  alt="img"
-                  class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
-                />
                 <div
-                  class="absolute top-0 left-0 w-full h-full opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                  class="mixitup-container grid lg:gap-7.5 gap-4 grid-cols-12 grid-rows-[277px] top-0 left-0 transition-all duration-500 target-card relative visible translate-y-0 opacity-100"
                 >
-                  <h5 class="text-center">
-                    <a
-                      href=""
-                      class="text-cream-foreground text-2xl font-medium"
-                      >Exploring Minds Elementary Best School</a
-                    >
-                  </h5>
-                  <p class="text-cream-foreground">Dreamland Elementary</p>
-                  <a
-                    href=""
-                    class="bg-background w-11 h-11 rounded-full flex justify-center items-center cursor-pointer absolute bottom-5 left-1/2 -translate-x-1/2 overflow-hidden group"
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item education coaching sm:col-start-1 sm:col-end-8 col-span-full relative group/card"
                   >
-                    <i
-                      class="fa-solid fa-arrow-right text-destructive-foreground"
-                    ></i>
-                  </a>
+                    <img
+                      src="./imgs/portfolio-1.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-14 left-12 w-[80%] h-[70%] xl:top-16 xl:left-16 xl:w-[85%] xl:h-[60%] m-auto opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 rounded-full flex justify-center items-center cursor-pointer absolute -bottom-5 left-[55%] xl:left-1/2 -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item school learn sm:col-start-8 sm:col-end-13 col-span-full relative group/card max-h-[435px]"
+                  >
+                    <img
+                      src="./imgs/portfolio-2.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-8 xl:top-8 xl:left-8 w-[calc(100%-60px)] h-[calc(100%-60px)] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 md:-bottom-4 rounded-full flex justify-center items-center cursor-pointer absolute left-[55%] xl:left-[60%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item education child md:col-start-1 sm:col-start-1 sm:col-end-7 col-span-full relative group/card max-h-[435px]"
+                  >
+                    <img
+                      src="./imgs/portfolio-3.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 xl:top-20 xl:left-16 w-[80%] h-[70%] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 rounded-full flex justify-center items-center cursor-pointer absolute left-[55%] xl:left-1/2 -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item school coaching sm:col-start-7 sm:col-end-13 col-span-full relative group/card max-h-[435px]"
+                  >
+                    <img
+                      src="./imgs/portfolio-5.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 xl:top-20 xl:left-16 w-[80%] h-[70%] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 rounded-full flex justify-center items-center cursor-pointer absolute left-[55%] xl:left-1/2 -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
                 </div>
               </div>
-              <!-- card end -->
-              <!-- card start -->
+            </div>
+            <!-- 3 -->
+            <div
+              class="hidden p-4 rounded-lg bg-white dark:bg-gray-800"
+              id="styled-settings"
+              role="tabpanel"
+              aria-labelledby="settings-tab"
+            >
               <div
-                class="mix portfolio-item education child md:col-start-10 sm:col-start-7 sm:col-end-13 col-span-full relative group/card"
+                class="mt-[64px] overflow-hidden relative animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
               >
-                <img
-                  src="./imgs/portfolio-3.png"
-                  alt="img"
-                  class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
-                />
                 <div
-                  class="absolute top-0 left-0 w-full h-full opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                  class="mixitup-container grid lg:gap-7.5 gap-4 grid-cols-12"
                 >
-                  <h5 class="text-center">
-                    <a
-                      href=""
-                      class="text-cream-foreground text-2xl font-medium"
-                      >Exploring Minds Elementary Best School</a
-                    >
-                  </h5>
-                  <p class="text-cream-foreground">Dreamland Elementary</p>
-                  <a
-                    href=""
-                    class="bg-background w-11 h-11 rounded-full flex justify-center items-center cursor-pointer absolute bottom-5 left-1/2 -translate-x-1/2 overflow-hidden group"
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item school coaching sm:col-start-1 sm:col-end-7 col-span-full relative group/card max-h-[453px]"
                   >
-                    <i
-                      class="fa-solid fa-arrow-right text-destructive-foreground"
-                    ></i>
-                  </a>
+                    <img
+                      src="./imgs/portfolio-5.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 w-[80%] h-[70%] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 rounded-full flex justify-center items-center cursor-pointer absolute left-[55%] md:left-[58%] xl:left-[50%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item learn child sm:col-start-7 sm:col-end-13 col-span-full relative group/card max-h-[453px]"
+                  >
+                    <img
+                      src="./imgs/portfolio-6.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 w-[80%] h-[70%] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 rounded-full flex justify-center items-center cursor-pointer absolute left-[63%] md:left-[58%] xl:left-[55%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
                 </div>
               </div>
-              <!-- card end -->
-              <!-- card start -->
+            </div>
+            <!-- 4 -->
+            <div
+              class="hidden p-4 rounded-lg bg-white dark:bg-gray-800"
+              id="styled-child"
+              role="tabpanel"
+              aria-labelledby="settings-tab"
+            >
               <div
-                class="mix portfolio-item school coaching md:col-start-5 md:col-end-9 sm:col-start-1 sm:col-end-7 col-span-full relative group/card"
+                class="mt-[64px] overflow-hidden relative animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
               >
-                <img
-                  src="./imgs/portfolio-5.png"
-                  alt="img"
-                  class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
-                />
                 <div
-                  class="absolute top-0 left-0 w-full h-full opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                  class="mixitup-container grid lg:gap-7.5 gap-4 grid-cols-12"
                 >
-                  <h5 class="text-center">
-                    <a
-                      href=""
-                      class="text-cream-foreground text-2xl font-medium"
-                      >Exploring Minds Elementary Best School</a
-                    >
-                  </h5>
-                  <p class="text-cream-foreground">Dreamland Elementary</p>
-                  <a
-                    href=""
-                    class="bg-background w-11 h-11 rounded-full flex justify-center items-center cursor-pointer absolute bottom-5 left-1/2 -translate-x-1/2 overflow-hidden group"
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item education coaching sm:col-start-1 sm:col-end-9 col-span-full relative group/card max-h-[453px]"
                   >
-                    <i
-                      class="fa-solid fa-arrow-right text-destructive-foreground"
-                    ></i>
-                  </a>
+                    <img
+                      src="./imgs/portfolio-1.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 w-[80%] h-[70%] xl:top-10 xl:left-14 xl:w-[85%] xl:h-[85%] m-auto opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 rounded-full flex justify-center items-center cursor-pointer absolute -bottom-5 left-[60%] lg:left-[54%] xl:left-1/2 -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item school learn sm:col-start-9 sm:col-end-13 col-span-full relative group/card max-h-[453px]"
+                  >
+                    <img
+                      src="./imgs/portfolio-2.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 xl:top-14 left-10 xl:left-12 md:left-7 w-[80%] h-[70%] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 rounded-full flex justify-center items-center cursor-pointer absolute left-[60%] md:left-[60%] xl:left-[55%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
                 </div>
               </div>
-              <!-- card end -->
-              <!-- card start -->
+            </div>
+            <!-- 5 -->
+            <div
+              class="hidden p-4 rounded-lg bg-white dark:bg-gray-800"
+              id="styled-contacts"
+              role="tabpanel"
+              aria-labelledby="contacts-tab"
+            >
               <div
-                class="mix portfolio-item learn child md:col-start-9 sm:col-span-6 sm:col-end-13 col-span-full relative group/card"
+                class="mt-[64px] overflow-hidden relative animate__animated animate__fadeInUp"
               >
-                <img
-                  src="./imgs/portfolio-6.png"
-                  alt="img"
-                  class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
-                />
                 <div
-                  class="absolute top-0 left-0 w-full h-full opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                  class="mixitup-container grid lg:gap-7.5 gap-4 grid-cols-12 grid-rows-[277px]"
                 >
-                  <h5 class="text-center">
-                    <a
-                      href=""
-                      class="text-cream-foreground text-2xl font-medium"
-                      >Exploring Minds Elementary Best School</a
-                    >
-                  </h5>
-                  <p class="text-cream-foreground">Dreamland Elementary</p>
-                  <a
-                    href=""
-                    class="bg-background w-11 h-11 rounded-full flex justify-center items-center cursor-pointer absolute bottom-5 left-1/2 -translate-x-1/2 overflow-hidden group"
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item education coaching sm:col-start-1 md:col-end-5 sm:col-end-7 col-span-full sm:row-span-2 relative group/card"
                   >
-                    <i
-                      class="fa-solid fa-arrow-right text-destructive-foreground"
-                    ></i>
-                  </a>
+                    <img
+                      src="./imgs/portfolio-1.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 md:top-12 md:left-7 md:h-[calc(100%-60px)] md:w-[calc(100%-60px)] w-[80%] h-[70%] xl:top-10 xl:left-10 xl:w-[85%] xl:h-[80%] lg:h-[80%] m-auto opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 rounded-full flex justify-center items-center cursor-pointer absolute -bottom-5 left-[58%] md:left-[60%] xl:left-[55%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item school learn md:col-start-5 md:col-end-10 sm:col-start-7 sm:col-end-13 col-span-full relative group/card max-h-[453px]"
+                  >
+                    <img
+                      src="./imgs/portfolio-2.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-5 left-6 md:top-5 md:left-6 w-[calc(100%-60px)] h-[calc(100%-30px)] lg:h-[80%] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a href="" class="text-white text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white">Dreamland Elementary</p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-3 lg:-bottom-5 rounded-full flex justify-center items-center cursor-pointer absolute left-[58%] md:left-[60%] lg:left-[56%] xl:left-[55%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item education child md:col-start-10 sm:col-start-7 sm:col-end-13 col-span-full relative group/card"
+                  >
+                    <img
+                      src="./imgs/portfolio-3.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 w-[80%] h-[70%] md:w-[calc(100%-60px)] md:h-[calc(100%-80px)] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a
+                          href=""
+                          class="text-white text-2xl md:text-[16px] lg:text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white md:text-sm text-center">
+                        Dreamland Elementary
+                      </p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 md:-bottom-7 xl:-bottom-6 rounded-full flex justify-center items-center cursor-pointer absolute left-[58%] md:left-[70%] lg:left-[60%] xl:left-[60%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item school coaching md:col-start-5 md:col-end-9 sm:col-start-1 sm:col-end-7 col-span-full relative group/card"
+                  >
+                    <img
+                      src="./imgs/portfolio-5.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 md:top-6 left-10 w-[80%] h-[70%] md:w-[calc(100%-60px)] md:h-[calc(100%-60px)] opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a
+                          href=""
+                          class="text-white text-2xl md:text-[16px] xl:text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white md:text-sm xl:text-base">
+                        Dreamland Elementary
+                      </p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 md:-bottom-7 xl:-bottom-6 rounded-full flex justify-center items-center cursor-pointer absolute left-[58%] md:left-[60%] xl:left-[58%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
+                  <!-- card start -->
+                  <div
+                    class="mix portfolio-item learn child md:col-start-9 sm:col-span-6 sm:col-end-13 col-span-full relative group/card"
+                  >
+                    <img
+                      src="./imgs/portfolio-6.png"
+                      alt="img"
+                      class="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]"
+                    />
+                    <div
+                      class="absolute top-10 left-10 w-[80%] h-[70%] md:w-[calc(100%-60px)] md:h-[calc(100%-60px)] lg:top-6 opacity-0 group-hover/card:opacity-80 transition-all duration-500 bg-primary rounded-[10px] flex flex-col items-center justify-center"
+                    >
+                      <h5 class="text-center">
+                        <a
+                          href=""
+                          class="text-white text-2xl md:text-base xl:text-2xl font-medium"
+                          >Exploring Minds Elementary Best School</a
+                        >
+                      </h5>
+                      <p class="text-white md:text-sm xl:text-base">
+                        Dreamland Elementary
+                      </p>
+                      <a
+                        href=""
+                        class="bg-white w-11 h-11 -bottom-5 rounded-full flex justify-center items-center cursor-pointer absolute left-[58%] md:left-[60%] xl:left-[58%] -translate-x-1/2 overflow-hidden group"
+                      >
+                        <i class="fa-solid fa-arrow-right text-destructive"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- card end -->
                 </div>
               </div>
-              <!-- card end -->
             </div>
           </div>
+
+          <!-- end flowbite -->
         </div>
       </div>
     </section>
-
     <section id="service" class="py-20 relative">
       <figure
         class="hidden md:block md:bottom-0 img-service absolute xl:bottom-32 xl:left-28"
@@ -1350,8 +1843,14 @@
       >
         <div class="serive-title lg:flex justify-between">
           <div class="service-title__left lg:w-[40%]">
-            <h3 class="font-bubble text-xl text-secondary">Latest Service</h3>
-            <p class="font-jost text-3xl font-bold">
+            <h3
+              class="font-bubble text-xl text-secondary wow animate__animated animate__fadeInUp"
+            >
+              Latest Service
+            </h3>
+            <p
+              class="font-jost text-3xl font-bold wow animate__animated animate__fadeInUp"
+            >
               Building a Str Foundation <br />
               for Success
             </p>
@@ -1376,10 +1875,17 @@
               ></i
             ></a>
           </div>
-          <div class="service-right xl:w-[65%]">
-            <div class="service-carousel owl-carousel owl-theme">
+          <div class="service-right relative w-full lg:w-[75%] xl:w-[70%]">
+            <swiper-container
+              class="service-carousel swiper-wrapper mySwiper"
+              space-between="30"
+              loop="true"
+              slides-per-view="3"
+              autoplay-delay="3000"
+              autoplay-disable-on-interaction="false"
+            >
               <div
-                class="group/cardItem service-card item hover:shadow hover:bg-white bg-white"
+                class="group/cardItem service-card w-full swiper-slide hover:shadow hover:bg-white"
               >
                 <div
                   class="service-card rounded-[10px] px-7 py-9 bg-transparent hover:bg-background transition-all duration-500 hover:shadow-3xl m-2.5 group/card"
@@ -1421,7 +1927,7 @@
                 </div>
               </div>
               <div
-                class="group/cardItem service-card item hover:shadow hover:bg-white bg-white"
+                class="group/cardItem service-card w-full swiper-slide hover:shadow hover:bg-white"
               >
                 <div
                   class="service-card rounded-[10px] px-7 py-9 bg-transparent hover:bg-background transition-all duration-500 hover:shadow-3xl m-2.5 group/card"
@@ -1463,7 +1969,7 @@
                 </div>
               </div>
               <div
-                class="group/cardItem service-card item hover:shadow hover:bg-white bg-white"
+                class="group/cardItem service-card w-full swiper-slide hover:shadow hover:bg-white"
               >
                 <div
                   class="service-card rounded-[10px] px-7 py-9 bg-transparent hover:bg-background transition-all duration-500 hover:shadow-3xl m-2.5 group/card"
@@ -1505,7 +2011,7 @@
                 </div>
               </div>
               <div
-                class="group/cardItem service-card item hover:shadow hover:bg-white bg-white"
+                class="group/cardItem service-card w-full swiper-slide hover:shadow hover:bg-white"
               >
                 <div
                   class="service-card rounded-[10px] px-7 py-9 bg-transparent hover:bg-background transition-all duration-500 hover:shadow-3xl m-2.5 group/card"
@@ -1547,7 +2053,7 @@
                 </div>
               </div>
               <div
-                class="group/cardItem service-card item hover:shadow hover:bg-white bg-white"
+                class="group/cardItem service-card w-full swiper-slide hover:shadow hover:bg-white"
               >
                 <div
                   class="service-card rounded-[10px] px-7 py-9 bg-transparent hover:bg-background transition-all duration-500 hover:shadow-3xl m-2.5 group/card"
@@ -1588,133 +2094,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="group/cardItem service-card item hover:shadow hover:bg-white bg-white"
-              >
-                <div
-                  class="service-card rounded-[10px] px-7 py-9 bg-transparent hover:bg-background transition-all duration-500 hover:shadow-3xl m-2.5 group/card"
-                >
-                  <img src="/imgs/car-icons1.png" alt="#" srcset="" />
-                  <h4 class="lg:max-w-[176px] mt-5">
-                    <a
-                      href="#"
-                      class="group-hover/cardItem:text-bgGreen mb-10 lg:text-2xl text-xl font-semibold leading-[141%] group-hover/card:text-green-foreground transition-all duration-500"
-                      >Learning School heres us</a
-                    >
-                  </h4>
-                  <div
-                    class="card-footer opacity-0 invisible transition-all duration-500 group-hover/card:opacity-100 group-hover/card:visible"
-                  >
-                    <p
-                      class="group-hover/cardItem:text-textGray mt-[15px] lg:max-w-[223px]"
-                    >
-                      Lorem ipsum dolor sit amet a the a conse adipiscing
-                    </p>
-                    <a
-                      href="#"
-                      class="inline-flex items-center gap-2 lg:mt-7 mt-4 group/btn"
-                    >
-                      <span
-                        class="group-hover/btn:text-bgGreen transition-all duration-500"
-                        >Read More</span
-                      >
-                      <span
-                        class="group-hover/btn:ml-1 text-bgGreen transition-all duration-500"
-                      >
-                        <i
-                          class="fa-solid fa-arrow-right"
-                          aria-hidden="true"
-                        ></i
-                      ></span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="group/cardItem service-card item hover:shadow hover:bg-white bg-white"
-              >
-                <div
-                  class="service-card rounded-[10px] px-7 py-9 bg-transparent hover:bg-background transition-all duration-500 hover:shadow-3xl m-2.5 group/card"
-                >
-                  <img src="/imgs/car-icons1.png" alt="#" srcset="" />
-                  <h4 class="lg:max-w-[176px] mt-5">
-                    <a
-                      href="#"
-                      class="group-hover/cardItem:text-bgGreen mb-10 lg:text-2xl text-xl font-semibold leading-[141%] group-hover/card:text-green-foreground transition-all duration-500"
-                      >Learning School heres us</a
-                    >
-                  </h4>
-                  <div
-                    class="card-footer opacity-0 invisible transition-all duration-500 group-hover/card:opacity-100 group-hover/card:visible"
-                  >
-                    <p
-                      class="group-hover/cardItem:text-textGray mt-[15px] lg:max-w-[223px]"
-                    >
-                      Lorem ipsum dolor sit amet a the a conse adipiscing
-                    </p>
-                    <a
-                      href="#"
-                      class="inline-flex items-center gap-2 lg:mt-7 mt-4 group/btn"
-                    >
-                      <span
-                        class="group-hover/btn:text-bgGreen transition-all duration-500"
-                        >Read More</span
-                      >
-                      <span
-                        class="group-hover/btn:ml-1 text-bgGreen transition-all duration-500"
-                      >
-                        <i
-                          class="fa-solid fa-arrow-right"
-                          aria-hidden="true"
-                        ></i
-                      ></span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="group/cardItem service-card item hover:shadow hover:bg-white bg-white"
-              >
-                <div
-                  class="service-card rounded-[10px] px-7 py-9 bg-transparent hover:bg-background transition-all duration-500 hover:shadow-3xl m-2.5 group/card"
-                >
-                  <img src="/imgs/car-icons1.png" alt="#" srcset="" />
-                  <h4 class="lg:max-w-[176px] mt-5">
-                    <a
-                      href="#"
-                      class="group-hover/cardItem:text-bgGreen mb-10 lg:text-2xl text-xl font-semibold leading-[141%] group-hover/card:text-green-foreground transition-all duration-500"
-                      >Learning School heres us</a
-                    >
-                  </h4>
-                  <div
-                    class="card-footer opacity-0 invisible transition-all duration-500 group-hover/card:opacity-100 group-hover/card:visible"
-                  >
-                    <p
-                      class="group-hover/cardItem:text-textGray mt-[15px] lg:max-w-[223px]"
-                    >
-                      Lorem ipsum dolor sit amet a the a conse adipiscing
-                    </p>
-                    <a
-                      href="#"
-                      class="inline-flex items-center gap-2 lg:mt-7 mt-4 group/btn"
-                    >
-                      <span
-                        class="group-hover/btn:text-bgGreen transition-all duration-500"
-                        >Read More</span
-                      >
-                      <span
-                        class="group-hover/btn:ml-1 text-bgGreen transition-all duration-500"
-                      >
-                        <i
-                          class="fa-solid fa-arrow-right"
-                          aria-hidden="true"
-                        ></i
-                      ></span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </swiper-container>
           </div>
         </div>
       </div>
@@ -1726,8 +2106,14 @@
         </div>
         <div class="faq-right lg:w-1/2 xl:w-1/2 xl:pt-16">
           <div class="faq-title">
-            <h3 class="font-bubble text-xl text-secondary">Some Faq</h3>
-            <p class="font-jost text-3xl font-bold xl:pb-8">
+            <h3
+              class="font-bubble text-xl text-secondary wow animate__animated animate__fadeInUp"
+            >
+              Some Faq
+            </h3>
+            <p
+              class="font-jost text-3xl font-bold xl:pb-8 wow animate__animated animate__fadeInUp"
+            >
               Empowering Children Through Education Playful Mind
             </p>
           </div>
@@ -1824,7 +2210,7 @@
     <section id="professional" class="py-10">
       <div class="max-w-6xl mx-auto text-center">
         <h4
-          class="text-secondary text-xl font-bubble wow wow animate__animated animate__fadeInUp"
+          class="text-secondary text-xl font-bubble wow animate__animated animate__fadeInUp"
         >
           Meet Our Professional
         </h4>
@@ -1854,28 +2240,28 @@
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i
                   ></a>
                 </li>
@@ -1901,28 +2287,28 @@
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i
                   ></a>
                 </li>
@@ -1948,28 +2334,28 @@
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
                   ></a>
                 </li>
                 <li>
                   <a
                     href=""
-                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-cream-foreground hover:bg-destructive transition-all duration-500"
+                    class="rounded-md w-9 h-9 flex items-center justify-center bg-warm hover:text-white hover:bg-destructive transition-all duration-500"
                     ><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i
                   ></a>
                 </li>
@@ -2676,7 +3062,7 @@
                 businesses Informati worldwide
               </p>
               <div class="contact-icon">
-                <ul class="flex pt-5 space-x-3 text-black gap-3">
+                <ul class="flex pt-5 text-black gap-5">
                   <li class="">
                     <a
                       href="#"
@@ -2805,12 +3191,12 @@
         id="footer-copyright"
         class="md:flex justify-between py-6 overflow-hidden max-w-[1280px] m-auto"
       >
-        <div class="container lg:flex justify-between m-auto">
+        <div class="container md:flex justify-between m-auto">
           <div class="footer-left text-textGray wow">
             <p>© <a href="#">Yoursitename</a> 2024 | All Rights Reserved</p>
           </div>
-          <div class="footer-right md:w-1/2 xl:flex xl:justify-end wow">
-            <ul class="flex space-x-6">
+          <div class="footer-right md:w-1/2 flex md:justify-end wow">
+            <ul class="flex space-x-4">
               <li><a href="#">Trams & Conditon</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Contact Us</a></li>
@@ -2819,6 +3205,14 @@
         </div>
       </div>
     </footer>
+    <br />
+    <div class="hidden md:block xl:hidden">
+      <br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+
+    <div class="hidden lg:block xl:hidden">
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
     <!-- script -->
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
@@ -2882,7 +3276,6 @@
     </script>
 
     <!-- owl-carousel -->
-    <!-- owl-carousel -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
@@ -2891,7 +3284,7 @@
     ></script>
     <script>
       var owl = $(".client-carousel .owl-carousel");
-      $(".client-carousel  .owl-carousel").owlCarousel({
+      $(".client-carousel .owl-carousel").owlCarousel({
         items: 1,
         loop: true,
         margin: 10,
@@ -2900,37 +3293,34 @@
       });
     </script>
 
+    <!-- flowbite -->
+    <script src="./../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <!-- back to top -->
+    <script src="./js/mainBackToTop.js"></script>
+    <script src="./js/util.js"></script>
+    <!-- swiperjs -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script>
-      var owl = $("#service .owl-carousel");
-      $("#service .owl-carousel").owlCarousel({
-        items: 3,
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        responsive: {
-          // breakpoint from 0 up
-          0: {
-            items: 1,
+      const swiperEl = document.querySelector("swiper-container");
+      Object.assign(swiperEl, {
+        breakpoints: {
+          300: {
+            slidesPerView: 1,
           },
-          // breakpoint from 480 up
-          480: {
-            items: 1,
+          600: {
+            slidesPerView: 3,
           },
-          // breakpoint from 768 up
           768: {
-            items: 3,
+            slidesPerView: 3,
           },
-          1000: {
-            items: 3,
+          1024: {
+            slidesPerView: 3,
           },
         },
       });
     </script>
-    <!-- flowbite -->
-    <script src="./../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+    <!-- main js -->
     <script src="./js/index.js"></script>
-    <script src="./js/mainBackToTop.js"></script>
-    <script src="./js/util.js"></script>
   </body>
 </html>
