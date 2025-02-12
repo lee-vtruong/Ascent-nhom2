@@ -365,7 +365,6 @@
                 <!-- icon menu bar -->
                 <div
                   class="icon-menu-bar flex flex-col gap-2 items-end ml-3 px-3 xl:hidden md:flex lg:flex"
-                  onclick="handleOpenHiddenMenuRight()"
                 >
                   <p class="block h-[3px] bg-black w-5"></p>
                   <p class="block h-[3px] bg-black w-8"></p>
@@ -414,7 +413,6 @@
             </div>
             <div
               class="icon-x w-10 h-10 bg-orange-400 rounded-md grid place-items-center"
-              onclick="handleCloseHiddenMenuRight()"
             >
               <i
                 class="fa-solid fa-xmark text-xl text-white"
@@ -3108,7 +3106,7 @@
         </div>
       </div>
     </section>
-    <footer>
+    <footer class="md:mb-40 xl:mb-0">
       <div id="contact-bottom">
         <div class="container m-auto">
           <div
@@ -3272,9 +3270,6 @@
         </div>
       </div>
     </footer>
-    <br />
-    <div class="hidden md:block xl:hidden"><br /><br /><br /><br /><br /></div>
-
     <!-- script -->
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
