@@ -848,6 +848,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .-mt-7 {
   margin-top: -1.75rem;
 }
@@ -870,14 +875,6 @@ video {
 
 .mb-28 {
   margin-bottom: 7rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mb-40 {
-  margin-bottom: 10rem;
 }
 
 .mb-48 {
@@ -970,6 +967,14 @@ video {
 
 .mt-\[64px\] {
   margin-top: 64px;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .block {
@@ -1718,11 +1723,6 @@ video {
 .bg-orange-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
-}
-
-.bg-pink-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity, 1));
 }
 
 .bg-primary {
@@ -2517,6 +2517,10 @@ body {
   border-color: rgb(115 190 72 / var(--tw-border-opacity, 1));
 }
 
+.hover\:border-destructive:hover {
+  border-color: #ED145B;;
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
@@ -2524,10 +2528,6 @@ body {
 
 .hover\:border-transparent:hover {
   border-color: transparent;
-}
-
-.hover\:border-destructive:hover {
-  border-color: #ED145B;;
 }
 
 .hover\:bg-bgGreen:hover {
@@ -2574,6 +2574,10 @@ body {
   color: rgb(37 99 235 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-destructive:hover {
+  color: #ED145B;;
+}
+
 .hover\:text-gray-600:hover {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
@@ -2602,10 +2606,6 @@ body {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-destructive:hover {
-  color: #ED145B;;
 }
 
 .hover\:shadow:hover {
@@ -2894,10 +2894,6 @@ body {
     margin-bottom: 0px;
   }
 
-  .md\:mb-28 {
-    margin-bottom: 7rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -2990,11 +2986,6 @@ body {
     --tw-space-x-reverse: 0;
     margin-right: calc(0px * var(--tw-space-x-reverse));
     margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:bg-warm {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 240 229 / var(--tw-bg-opacity, 1));
   }
 
   .md\:px-6 {
@@ -3123,16 +3114,8 @@ body {
     top: 35%;
   }
 
-  .lg\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
   .lg\:mb-28 {
     margin-bottom: 7rem;
-  }
-
-  .lg\:mb-40 {
-    margin-bottom: 10rem;
   }
 
   .lg\:mb-\[1\%\] {
@@ -3454,6 +3437,16 @@ body {
 
   .xl\:m-auto {
     margin: auto;
+  }
+
+  .xl\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .xl\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .xl\:mb-20 {
