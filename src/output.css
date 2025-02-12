@@ -880,10 +880,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mb-52 {
-  margin-bottom: 13rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -962,6 +958,10 @@ video {
 
 .mt-\[64px\] {
   margin-top: 64px;
+}
+
+.mb-52 {
+  margin-bottom: 13rem;
 }
 
 .block {
@@ -2883,6 +2883,10 @@ body {
 
   .md\:mb-40 {
     margin-bottom: 10rem;
+  }
+
+  .md\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .md\:block {
